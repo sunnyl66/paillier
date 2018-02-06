@@ -102,8 +102,7 @@ int main(){
   //int mu = inverseMod(L_function(pow(g,lambda),pow(n,2)),n);
 
 
-  long a1 = moddiv(pow(g,lambda),pow(n,2));
-   a1 = (pow(3,4));
+  int a1 = moddiv(pow(g,lambda),pow(n,2));
 
   cout << "a1 " << a1 << endl;
   int a2 = L_function(a1,n);
